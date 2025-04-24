@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x86",
+            "includePath": [
+                "${workspaceFolder}/",
+                "C:/msys64/mingw64/include/c++/14.2.0",  // Path to C++ standard library headers
+                "C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32",  // Architecture-specific includes
+                "C:/msys64/mingw64/include/c++/14.2.0/backward",  // Backward compatibility headers (if required)
+                "C:/msys64/mingw64/include"  // MinGW base include directory
+            ],
+            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "windows-gcc-x86",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
