@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int k;
     cin>>k;
-    while (k--) {
+    while (k--)
     {
         int n;
         cin>>n;
@@ -12,24 +12,33 @@ int main() {
         {
             cin>>a[i];
         }
-        for (int i=;i<n;i++)
+        for (int i=0;i<n;i++)
         {
             cin>>b[i];
         }
         int count = 0,flag=0;
-        for (int i = 0; i < n; i++) {
+        while(1){
+            if(flag){
+            for (int i = 0; i < n; i++) {
             if (a[i] > b[i]) {
                 count++;
                 a[i]--;
+                flag=1;
             }
-            if(a[i] < b[i]) {
-                count++;
-                b[i]--;
-                break;
             }
         }
-        
+             else{
+                for(int i = 0; i < n; i++) {
+                    if(b[i] > a[i]) {
+                        count++;
+                        b[i]--;
+                        break;
+                    }
+                break;    
+            }
+        }
     }
-    
+    cout<< count << endl;
+}
     return 0;
 }
