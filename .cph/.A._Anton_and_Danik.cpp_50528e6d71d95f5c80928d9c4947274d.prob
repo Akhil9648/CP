@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"c:\\Users\\akhil\\C++\\A._Anton_and_Danik.cpp","tests":[{"id":1761149500830,"input":"6\nADAAAA\n","output":"Anton\n"},{"id":1761149582646,"input":"7\nDDDAADA\n","output":"Danik"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\akhil\\C++\\A._Anton_and_Danik.cpp","group":"local","local":true}

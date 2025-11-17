@@ -1,0 +1,1 @@
+{"name":"Local: OrderIt","url":"c:\\Users\\akhil\\C++\\OrderIt.cpp","tests":[{"id":1761940670060,"input":"8\n\nA B C B A C C A\n\n1 4 7","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\akhil\\C++\\OrderIt.cpp","group":"local","local":true}
