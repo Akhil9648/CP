@@ -13,7 +13,7 @@ int main() {
         int no=0;
         stack<char>st;
         for(char c:s){
-            if(st.empty() || st.top()!=c){
+            if(st.empty() || st.top()!=c){\
                 st.push(c);
             }
             else{
